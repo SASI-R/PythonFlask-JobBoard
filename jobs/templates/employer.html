@@ -13,7 +13,7 @@
 
   <h2>Reviews</h2>
 
-    {% for reviews in reviews %}
+    {% for review in reviews %}
     <div class="box">
       <article class="media">
         <div class="media-left">
@@ -23,7 +23,7 @@
         </div>
         <div class="media-content">
           <div class="content">
-            <<p>
+            <p>
               <strong>{{ review['title'] }}</strong>
               <small>{{ review['status'] }}</small>
               <small>{{ review['date'] }}</small>
